@@ -1,0 +1,477 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 18px;
+}
+
+
+/*--------------------------------------------- header @cepu ---------------------------------------------------------------------------------------------*/
+
+header {
+    height: 120px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    opacity: 0.9;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 2px 2px 2px rgb(100, 10, 100);
+}
+
+*/ .container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.text-logo {
+    float: left;
+    position: absolute;
+    margin: 80px 60px;
+    font-variant-numeric: diagonal-fractions;
+    font-weight: 800;
+}
+
+.logo-header {
+    float: left;
+    margin: 20px 50px;
+}
+
+.logo-header img {
+    height: 80px;
+    width: 80px;
+    position: relative;
+}
+
+
+/* The animation code untuk li @cepu*/
+
+@keyframes warna {
+    0% {
+        letter-spacing: 10px;
+    }
+    25% {
+        letter-spacing: 8px;
+    }
+    50% {
+        letter-spacing: 6px;
+    }
+    75% {
+        letter-spacing: 3px;
+    }
+    100% {
+        letter-spacing: 2px;
+    }
+}
+
+.list-header li {
+    text-shadow: 5px 5px 5px rgba(200, 0, 0, 0.7);
+    color: #000;
+    font-size: 20px;
+    float: right;
+    margin: 49px 20px;
+    font-weight: bold;
+    vertical-align: top;
+    letter-spacing: 2px;
+    animation-name: warna;
+    animation-duration: 4s;
+    padding-top: 11px;
+    animation-iteration-count: 3;
+    animation-direction: alternate-reverse;
+    font-variant: petite-caps;
+}
+
+.list-header li:hover {
+    font-size: 50px;
+}
+
+
+/*---------------------------------------------------akhir dari header-------------------------------------------------------------------------------------------*/
+
+
+/* ---------------------------------------Awal Banner @ardhika------------------------------ */
+
+.banner {
+    background-color: rgb(160, 138, 219);
+    padding: 150px 0 100px 0;
+}
+
+.container {
+    display: flex;
+}
+
+.slide-tulisan {
+    float: left;
+    width: 50%;
+}
+
+.judul {
+    width: 100%;
+    height: auto;
+}
+
+.heading {
+    margin-left: 80px;
+    padding-left: 0px;
+    font-weight: 900;
+    color: white;
+    font-size: 55px;
+    line-height: 100px;
+}
+
+span {
+    color: #000;
+}
+
+.paragraf {
+    margin-left: 80px;
+    padding-top: 40px;
+    padding-right: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333
+}
+
+.slide-gambar {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.gambar {
+    width: 100%;
+    margin-top: -70px;
+    margin-right: 60px;
+}
+
+.gambar img {
+    max-width: 86%;
+}
+
+.judul a {
+    display: inline-block;
+    padding: 15px 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 4px;
+    text-decoration: none;
+}
+
+.judul a:hover {
+    background-color: #04490b;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.judul a:active {
+    background-color: #033b07;
+}
+
+
+/* ---------------------------------------------Akhir Banner @ardhika---------------------------------------------------- */
+
+
+/*--------------------------------------------- Konten Extra 1 @Rizal ------------------------------------------------------------  */
+
+
+/*container Extra1------------*/
+
+.container1 {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+/*--------- Judul Extra ---------  */
+
+.judul-extra1 {
+    margin: 50px 0;
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+
+/*--------- Konten Extra 1 ---------  */
+
+.main-extra1 {
+    width: 33.33333333%;
+    float: left;
+}
+
+.extra1 {
+    margin: auto;
+    padding: 0 20px;
+    height: 850px;
+}
+
+
+/*--------- Gambar Extra 1 ---------  */
+
+.gambar-extra1 {
+    width: 100%;
+    text-align: center;
+}
+
+
+/*--------- Judul Extra 1 ---------  */
+
+.nama-extra1 {
+    font-size: 20px;
+    margin: 0 50px;
+    margin-top: 50px;
+    border-bottom: 10px solid rgb(160, 138, 219);
+    text-shadow: 5px 5px 5px rgb(119, 98, 98);
+}
+
+
+/*--------- isi Extra 1 ---------  */
+
+.isi-extra1 {
+    margin: 0 50px;
+    margin-top: 50px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+
+/*--------- button extra ---------  */
+
+.btn-extra1 {
+    width: 160px;
+    margin: 0 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.btn-extra1 a {
+    color: black;
+    padding: 15px 15px;
+    border: 3px solid;
+    border-color: rgb(160, 138, 219);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn-extra1:hover a {
+    background: rgb(241, 174, 174);
+    color: black;
+    padding: 20px 20px;
+}
+
+
+/*-------------------animation ---------------------------------*/
+
+
+/*LINK ANIMATION KALI MAU MAKE LUMAYAN LAH SIMPEL 
+http://www.justinaguilar.com/animations/css/animations.css */
+
+.fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    animation-duration: 2.5s;
+    -webkit-animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;
+    }
+    60% {
+        transform: scale(1.1);
+    }
+    80% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;
+    }
+    60% {
+        -webkit-transform: scale(1.1);
+    }
+    80% {
+        -webkit-transform: scale(0.9);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/*-------------------End animation ---------------------------------*/
+
+
+/* JANUAR */
+
+.containerj {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.lesson-wrapper {
+    margin-top: 30px;
+    padding-bottom: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.headingj {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.headingj h1 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.in {
+    width: 75px;
+}
+
+.fb {
+    width: 75px;
+}
+
+.tw {
+    width: 75px;
+}
+
+.ig {
+    width: 75px;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.clear {
+    clear: left;
+}
+
+
+/* END JANUAR */
+
+
+/*---------------------------------------------End Konten Extra 1 @Rizal ------------------------------------------------------------  */
+
+
+/*------------------------------------------------------------------------------awal footer @cepu-------------------------------------------------------------------*/
+
+footer {
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    border-top: outset;
+    box-shadow: 2px 2px 2px rgb(255, 0, 0);
+}
+
+div#footer-logo {
+    width: 15%;
+    margin: 0;
+    padding: 0px;
+    float: left;
+}
+
+.footer-li {
+    float: left;
+    width: 25%;
+    font-size: 25px;
+    margin: auto;
+    padding: 0;
+}
+
+div#footer-li-2 {
+    font-size: 20px;
+}
+
+footer img {
+    width: 60px;
+    background: transparent;
+    padding-left: 50px;
+    padding-top: 18px;
+}
+
+.footer-li ul {
+    -webkit-border-vertical-spacing: initial;
+    padding-top: 14px;
+    text-decoration: blink;
+    -webkit-text-stroke-width: medium;
+    -webkit-text-emphasis: open red;
+    -webkit-text-emphasis-style: open;
+    -webkit-text-emphasis-color: red;
+}
+
+.footer-text {
+    padding-top: 18px;
+}
+
+#footer-li-1 {
+    text-decoration-color: aquamarine;
+    text-transform: uppercase;
+}
+
+
+/*------------------------------------------------------------------------------akhir footer@cepu------------------------------------------------------------------*/
